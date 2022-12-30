@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 290px;
+}
+
+#quote-box {
+  background-color: #fff;
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+h3 {
+  padding: 0.5em;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 65px;
+  margin-top: 2.5em;
+}
+
+button, a {
+  background-color: #242424;
+  color: #fff;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+button:hover, a:hover {
+  opacity: 0.75;
+}
